@@ -193,7 +193,7 @@ export abstract class BaseCachedImage<P extends CachedImageProps> extends Compon
             If you want to see this feature supported, please file and issue at
              https://github.com/wcandillon/react-native-img-cache`);
         } else if (typeof(source) === "number") {
-           throw new Error(`Provided an image that is available locally already.`);
+           //throw new Error(`Provided an image that is available locally already.`);
         }
         return source;
     }
